@@ -131,7 +131,6 @@ var boromir = fellowshipMembers[4];
 var hornOfGondor = function () {
 	 // pop up an alert that the horn of gondor has been blown
   // alert('the horn of gondor has blown');
-  boromir.style.textDecoration = 'line-through';
   boromir.parentNode.removeChild(boromir)
  // Boromir's been killed by the Uruk-hai!
  // Remove `Boromir` from the Fellowship
